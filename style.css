@@ -1,0 +1,51 @@
+.navbar{
+      font-size: 20px;
+      color: white;
+    }
+    /* styles.css */
+
+/* Hero Section Custom Styling */
+.hero-section {
+  height: 100vh;
+  background: linear-gradient(to right, #4a5bf5, #717ff5);
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* About Section */
+#about h2 {
+  color: #012970;
+  font-weight: bold;
+}
+
+#about p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Responsive tweaks if needed */
+@media (max-width: 768px) {
+  .hero-section {
+    height: auto;
+    padding: 80px 20px;
+    text-align: center;
+  }
+}
+/* SKILLLS */
+#skills h2{
+    color: #012970;
+    font-size: 30px;
+  
+}
+#contact h2{
+  color: #012970;
+  font-size: 30px;
+}
+.mb-3{
+  color: black;
+  font-size: 19px;
+}
